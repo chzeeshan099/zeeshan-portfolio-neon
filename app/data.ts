@@ -20,7 +20,7 @@ export const personalInfo = {
   location: "Pakistan",
   github: "https://github.com/chzeeshan099",
   linkedin: "https://www.linkedin.com/in/muhammad-zeeshan-akram-a4026b381",
-  resume: "/resume.pdf",
+  resume: "/Zeeshan-CV.pdf",
   yearsExperience: 2,
   projectsCompleted: 10,
   happyClients: 10,

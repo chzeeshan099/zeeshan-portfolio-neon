@@ -92,7 +92,7 @@ export default function Navbar() {
 
         {/* CTA */}
         <a
-          href="/resume.pdf"
+          href="/Zeeshan-CV.pdf"
           download
           className="hidden lg:flex items-center gap-2 px-5 py-2 text-sm font-orbitron font-bold tracking-wider uppercase bg-transparent border border-neon-cyan/40 text-neon-cyan clip-skew transition-all duration-300 hover:bg-neon-cyan/10 hover:border-neon-cyan/80"
           style={{ boxShadow: "0 0 12px rgba(0,245,255,0.15)" }}
@@ -125,7 +125,7 @@ export default function Navbar() {
             ))}
             <li>
               <a
-                href="/resume.pdf"
+                href="/Zeeshan-CV.pdf"
                 download
                 className="inline-block mt-2 px-6 py-2 text-sm font-orbitron font-bold tracking-wider uppercase border border-neon-cyan/40 text-neon-cyan clip-skew"
               >

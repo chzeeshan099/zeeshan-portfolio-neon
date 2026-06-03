@@ -203,7 +203,7 @@ export default function Hero() {
             Hire Me
           </button>
           <a
-            href="/resume.pdf"
+            href="/Zeeshan-CV.pdf"
             download
             className="flex items-center gap-2 px-8 py-3 font-orbitron font-bold text-sm tracking-widest uppercase text-slate-300 border border-white/10 clip-skew transition-all duration-300 hover:bg-white/5"
           >
