@@ -156,7 +156,7 @@ export default function Hero() {
         </div> */}
 
         {/* Name */}
-        <h1 className="font-orbitron font-black mb-4 leading-tight">
+        <h1 className="font-orbitron font-black mt-16 sm:mb-4 leading-tight">
           <span
             className="block text-5xl md:text-7xl lg:text-8xl text-white"
             style={{ textShadow: "0 0 40px rgba(255,255,255,0.15)" }}
