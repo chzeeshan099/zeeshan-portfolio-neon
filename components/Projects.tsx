@@ -43,7 +43,7 @@ export default function Projects() {
   const filtered =
     active === "All"
       ? projects
-      : projects.filter((p) => p.type === active.toLowerCase());
+      : projects;
 
   return (
     <section id="projects" className="relative z-10 py-28 px-6">
@@ -61,12 +61,12 @@ export default function Projects() {
           </h2>
           <div className="neon-line w-20" />
           <p className="text-slate-400 text-lg mt-6 max-w-2xl">
-            Real-world projects built with modern technologies — from full-stack web apps to cross-platform mobile applications.
+            Real world projects built with modern technologies  from full-stack web apps to cross platform mobile applications.
           </p>
         </div>
 
         {/* Filter Tabs */}
-        <div className="flex gap-3 mb-12">
+        {/* <div className="flex gap-3 mb-12">
           {filters.map((f) => (
             <button
               key={f}
@@ -83,7 +83,7 @@ export default function Projects() {
               {f}
             </button>
           ))}
-        </div>
+        </div> */}
 
         {/* Projects Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -116,13 +116,13 @@ export default function Projects() {
                   </span>
 
                   {/* Type badge */}
-                  <div
+                  {/* <div
                     className="absolute top-4 left-4 flex items-center gap-1 px-3 py-1 text-xs font-semibold tracking-widest uppercase rounded-sm"
                     style={{ color: c.text, background: c.tagBg, border: `1px solid ${c.border}` }}
                   >
                     {project.type === "web" ? <Globe size={12} /> : <Smartphone size={12} />}
                     {project.type}
-                  </div>
+                  </div> */}
 
                   {project.featured && (
                     <div
@@ -169,7 +169,7 @@ export default function Projects() {
 
                   {/* Links */}
                   <div className="flex gap-3">
-                    <a
+                    {/* <a
                       href={project.github}
                       target="_blank"
                       rel="noopener noreferrer"
@@ -182,7 +182,7 @@ export default function Projects() {
                       onMouseLeave={(e) => { (e.currentTarget as HTMLElement).style.background = "transparent"; }}
                     >
                       <Github size={13} /> GitHub
-                    </a>
+                    </a> */}
                     {project.live && (
                       <a
                         href={project.live}
