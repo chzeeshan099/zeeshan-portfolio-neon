@@ -151,7 +151,7 @@ export const projects = [
     // github: "https://github.com/zeeshandev/shopease",
     live: "https://app.workless.ai",
     featured: true,
-    icon: "🛒",
+    icon: "Briefcase",
   },
   {
     id: 2,
@@ -162,7 +162,7 @@ export const projects = [
     // github: "https://github.com/zeeshandev/chatspace",
     live: "https://money-mutt-frontend.vercel.app",
     featured: true,
-    icon: "💬",
+    icon: "Wallet",
   },
   {
     id: 3,
@@ -179,7 +179,7 @@ export const projects = [
     // github: "https://github.com/zeeshandev/foodzap",
     live: "https://app.cooperbuild.ai",
     featured: true,
-    icon: "🍔",
+    icon: "HardHat",
   },
   {
     id: 4,
@@ -195,7 +195,7 @@ export const projects = [
     // github: "https://github.com/zeeshandev/authguard",
     live: "https://ng1citycleaners.co.uk/",
     featured: true,
-    icon: "🔐",
+    icon: "Trash2",
   },
   {
     id: 5,
@@ -206,7 +206,7 @@ export const projects = [
     // github: "https://github.com/zeeshandev/fittrack",
     live: "https://ecomrence-bszk-git-main-muhammad-zeeshan-akrams-projects.vercel.app/",
     featured: true,
-    icon: "💪",
+    icon: "ShoppingCart",
   },
   {
     id: 6,
@@ -217,7 +217,7 @@ export const projects = [
     // github: "https://github.com/zeeshandev/blogcraft",
     live: "https://invextech.com/",
     featured: true,
-    icon: "✍️",
+    icon: "Building2",
   },
   
 ];

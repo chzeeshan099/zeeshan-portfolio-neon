@@ -2,7 +2,8 @@
 
 import { useState } from "react";
 import { projects } from "@/app/data";
-import { Github, ExternalLink, Globe, Smartphone } from "lucide-react";
+import * as Icons from "lucide-react";
+import { type LucideIcon , Github, ExternalLink, Globe, Smartphone  } from "lucide-react";
 
 const filters = ["All", "Web", "Mobile"];
 
@@ -111,9 +112,17 @@ export default function Projects() {
                   style={{ background: `linear-gradient(135deg, ${c.bg}, rgba(3,8,16,0.9))` }}
                 >
                   {/* Big icon */}
-                  <span className="text-7xl opacity-20 group-hover:opacity-40 transition-opacity duration-400 select-none">
-                    {project.icon}
-                  </span>
+                 {(() => {
+                const Icon = Icons[project.icon as keyof typeof Icons] as LucideIcon;
+                return Icon ? (
+           <div
+             className="opacity-15 group-hover:opacity-35 transition-opacity duration-400"
+             style={{ color: c.text }}
+            >
+           <Icon size={100} strokeWidth={1} />
+          </div>
+         ) : null;
+          })()}
 
                   {/* Type badge */}
                   {/* <div
